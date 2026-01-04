@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
+import logo from './assets/logo.png'
 
 const navLinks = [
     { href: "/#hero", label: "Beranda", id: "hero" },
@@ -68,7 +69,7 @@ const Navbar = () => {
                 <div className="flex items-center justify-between px-6 py-3">
                     <Link to="/" className="flex items-center gap-3">
                         <img 
-                            src="src/assets/logo.png" 
+                            src={logo}
                             alt="Logo Nota Hidup" 
                             className="w-9 h-9 object-contain" 
                         />
