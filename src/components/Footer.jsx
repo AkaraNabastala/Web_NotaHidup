@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from './assets/logo.png'
 
 const Footer = () => {
   const socialLinks = [
@@ -20,7 +21,7 @@ const Footer = () => {
             <div className="flex items-center gap-4">
               <div className="w-12 h-12 flex-shrink-0">
                 <img 
-                  src="src/assets/logo.png" 
+                  src={logo} 
                   alt="Logo Nota Hidup" 
                   className="w-full h-full object-contain filter drop-shadow-md"
                 />

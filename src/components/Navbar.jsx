@@ -95,7 +95,7 @@ const Navbar = () => {
                 <Link to="/" className="absolute top-10 left-12 lg:left-24 flex items-center gap-3 pointer-events-auto group">
                     <div className="w-12 h-12 flex-shrink-0">
                         <img 
-                            src="src/assets/logo.png" 
+                            src={logo} 
                             alt="Logo Nota Hidup" 
                             className="w-full h-full object-contain filter drop-shadow-sm group-hover:scale-110 transition-transform duration-300" 
                         />
