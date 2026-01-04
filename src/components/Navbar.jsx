@@ -71,11 +71,7 @@ const Navbar = () => {
             {/* --- MOBILE TOP HEADER (TETAP DIAM / FIXED) --- */}
             <header className="md:hidden fixed top-0 left-0 right-0 z-[100] bg-white/95 backdrop-blur-md border-b border-stone-100 shadow-sm">
                 <div className="flex items-center justify-between px-6 py-3">
-                    <Link 
-                    to="/" 
-                    onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} 
-                    className="flex items-center gap-3"
-                    >
+                    <Link to="/" className="flex items-center gap-3">
                         <img 
                             src={logo}
                             alt="Logo Nota Hidup" 
