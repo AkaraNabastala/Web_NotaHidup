@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://AkaraNabastala.github.io/NotaHidup",
+  "homepage": "https://github.com/AkaraNabastala/Web_NotaHidup.git",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
