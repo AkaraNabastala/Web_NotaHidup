@@ -93,7 +93,7 @@ const Footer = () => {
           >
             <span className="text-stone-600 text-[9px] tracking-[0.3em] uppercase group-hover:text-stone-400 transition-colors">Crafted With</span>
             <span className="text-stone-200 text-sm font-serif italic tracking-widest group-hover:scale-105 transition-all">
-              Astro<span className="text-[#E2703A] not-italic font-bold font-sans tracking-tighter">phile</span>
+              Naba<span className="text-[#E2703A] not-italic font-bold font-sans tracking-tighter">stala</span>
             </span>
           </a>
 
