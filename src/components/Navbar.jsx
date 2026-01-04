@@ -49,12 +49,16 @@ const Navbar = () => {
         return () => window.removeEventListener("scroll", handleScroll);
     }, [lastScrollY, isOrderPage]);
 
+    // 
     const handleLinkClick = (id) => {
         setActiveSection(id);
         if (!isOrderPage) {
             const element = document.getElementById(id);
             if (element) {
                 element.scrollIntoView({ behavior: "smooth" });
+            } else {
+                // Jika element tidak ketemu (misal saat baru refresh), paksa ke atas
+                window.scrollTo({ top: 0, behavior: "smooth" });
             }
         }
     };
