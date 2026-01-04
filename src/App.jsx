@@ -16,12 +16,9 @@ const ScrollToTop = () => {
   const { pathname, hash } = useLocation();
 
   useEffect(() => {
-    // Jika tidak ada hash (seperti #katalog), scroll ke paling atas
     if (!hash) {
       window.scrollTo(0, 0);
-    } 
-    // Jika ada hash, biarkan browser menangani scroll ke ID tersebut
-    else {
+    } else {
       const id = hash.replace('#', '');
       const element = document.getElementById(id);
       if (element) {
@@ -34,8 +31,11 @@ const ScrollToTop = () => {
 };
 
 function App() {
+  // Mendeteksi /Web_NotaHidup/ dari vite.config.js secara otomatis
+  const baseName = import.meta.env.BASE_URL;
+
   return (
-    <Router>
+    <Router basename={baseName}>
       <ScrollToTop />
       <div className="min-h-screen bg-white selection:bg-orange-100">
         <Navbar />
