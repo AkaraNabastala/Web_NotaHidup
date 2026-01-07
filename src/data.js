@@ -21,7 +21,7 @@ export const featureData = [
     id: 3,
     title: "Multi-Guest Personalizer",
     icon: "ri-group-line",
-    image: "https://images.unsplash.com/photo-1519222970733-f746152ee63b?q=80&w=2070&auto=format&fit=crop",
+    image: "https://imgs.search.brave.com/its80u1h6y-ZzQjIZ7JkOVBN_AH-bdqDWK9hAHj8OJM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zYXR1/bW9tZW4uY29tL2lt/YWdlcy93aGF0c2Fw/cC1icm9hZGNhc3Qu/d2VicA",
     desc: "Satu undangan untuk ribuan tamu dengan nama yang terpersonalisasi secara otomatis.",
     detailDesc: "Fitur unggulan Nota Hidup yang memungkinkan Anda mengirimkan satu link undangan ke daftar tamu yang tak terbatas. Setiap tamu akan menerima undangan dengan nama mereka tercantum secara eksklusif, memberikan kesan personal yang mendalam.",
     highlights: ["Unlimited Guest Name", "Custom Link Generator", "Personalized Greeting"]
