@@ -6,6 +6,7 @@ import WhatsAppButton from './components/WhatsAppButton';
 import Hero from './sections/Hero';
 import About from './sections/About';
 import Features from './sections/Features';
+import Services from './sections/Services';
 import Katalog from './sections/Katalog';
 import Order from './sections/Order';
 import OrderForm from './sections/OrderForm';
@@ -47,6 +48,7 @@ function App() {
               <section id="hero"><Hero /></section>
               <section id="about"><About /></section>
               <section id="features"><Features /></section>
+              <section id="services"><Services /></section>
               <section id="katalog"><Katalog /></section>
               <section id="order"><Order /></section>
             </main>

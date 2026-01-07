@@ -6,6 +6,7 @@ const navLinks = [
     { href: "/#hero", label: "Beranda", id: "hero" },
     { href: "/#about", label: "Tentang", id: "about" },
     { href: "/#features", label: "Fitur", id: "features" },
+    { href: "/#services", label: "Services", id: "services" },
     { href: "/#katalog", label: "Katalog", id: "katalog" },
     { href: "/#order", label: "Order", id: "order" },
 ];
